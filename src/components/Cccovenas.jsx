@@ -1,10 +1,10 @@
 import React from 'react'
-import Cccovenas1 from '../images/cccovenas.jpg'
+import cccovenas from '../images/cccovenas.jpg'
 
-const Cccovenas = () => {
+const Cccovenas = ( { className } ) => {
   return (
-    <div>
-        <img src={Cccovenas1} alt="Paisaje playa Coveñas Sucre Colombia" />
+    <div className={`image-container ${className}`}>
+        <img src={cccovenas} alt="Paisaje playa Coveñas Sucre Colombia" className="image"/>
     </div>
   )
 }

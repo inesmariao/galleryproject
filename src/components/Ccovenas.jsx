@@ -3,8 +3,8 @@ import Cconvenas1 from '../images/ccovenas.jpg'
 
 const Ccovenas = () => {
   return (
-    <div>
-        <img src={Cconvenas1} alt="Paisaje playa Coveñas Sucre Colombia" />
+    <div className="container">
+        <img src={Cconvenas1} alt="Paisaje playa Coveñas Sucre Colombia" className="image"/>
     </div>
   )
 }
